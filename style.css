@@ -1,0 +1,31 @@
+.row {
+display: flex;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+    width: 10%;
+    font-size: 30px;
+}
+h1 {
+    margin-left: 15%;
+    font-family: 'Pacifico', cursive;
+}
+.fon {
+    width: 40%;
+    background: rgba(151, 166, 255, 0.58);
+    padding-top: 2%;
+    padding-right: 2%;
+    border:3px solid #1115ff;
+    border-radius: 5%;
+    box-shadow: 3px 3px 25px rgba(0,0,0,61);
+}
+.rowWeekend {
+    background: rgba(255, 45, 33, 0.64);
+    border-radius: 10%;
+}
